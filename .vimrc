@@ -42,8 +42,6 @@ set cursorline
 " for taglist
 nmap <F8> :Tagbar<CR>
 
-set list lcs=tab:^.
-
 set sts=4 ts=4 sw=4
 
 " for vim-airline
