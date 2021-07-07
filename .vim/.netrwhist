@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/mh/snap'
-let g:netrw_dirhist_2='/home/mh/workspace/flush-reload-attacks/source/gnupg-1.4.13-rdtsc'
-let g:netrw_dirhist_3='/home/mh/workspace/flush-reload-attacks/source/gnupg-1.4.13-rdtsc/include'
-let g:netrw_dirhist_4='/home/mh/workspace/flush-reload-attacks/source/gnupg-1.4.13'
-let g:netrw_dirhist_5='/home/mh/workspace/flush-reload-attacks/source/gnupg-1.4.13/mpi'
-let g:netrw_dirhist_6='/home/mh/workspace/flush-reload-attacks/source/gnupg-1.4.13'
-let g:netrw_dirhist_7='/home/mh/workspace/flush-reload-attacks/source/gnupg-1.4.13/mpi'
