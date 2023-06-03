@@ -5,21 +5,14 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'morhetz/gruvbox'
 Plugin 'tpope/vim-fugitive'
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-Plugin 'ascenator/L9', {'name': 'newL9'}
 Plugin 'The-NERD-Tree'
-Plugin 'Source-Explorer-srcexpl.vim'
-Plugin 'SrcExpl'
 Plugin 'taglist.vim'
-Plugin 'nanotech/jellybeans.vim'
 Plugin 'majutsushi/tagbar'
-Plugin 'airblade/vim-gitgutter' 
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'airblade/vim-gitgutter' 
 Plugin 'blueyed/vim-diminactive'
-Plugin 'zeis/vim-kolor'
 Plugin 'dracula/vim', { 'name': 'dracula' }
 
 call vundle#end()
@@ -34,6 +27,7 @@ set nu "rnu
 colorscheme dracula
 
 set bg=dark
+set hls "search result highlight
 
 set backspace=indent,eol,start
 set t_Co=256
@@ -44,17 +38,17 @@ set cursorline
 let &t_ZH="\e[3m"
 let &t_ZR="\e[23m"
 " for taglist
-nmap <F8> :Tagbar<CR>
+nmap <F9> :Tagbar<CR>
+" for NERDTree
+nmap <F8> :NERDTreeToggle<CR>
 
 set sts=4 ts=4 sw=4
 
 " for vim-airline
-let g:airline#extensions#tabline#enabled = 1 " turn on buffer list
-let g:airline_theme='hybrid'
-set laststatus=2 " turn on bottom bar
-let mapleader = ","
-nnoremap <leader>q :bp<CR>
-nnoremap <leader>w :bn<CR>
+"let g:airline#extensions#tabline#enabled = 1 " turn on buffer list
+let g:airline_theme='dracula'
+let g:airline_section_b = '%{getcwd()}'
+let g:airline_extensions = []
 
 " for blueyed/vim-diminactive
 let g:diminactive_enable_focus = 1
