@@ -83,7 +83,7 @@ alias la='ls -A'
 alias l='ls -CF'
 
 #ls --color=auto
-alias tmux='tmux -2'
+alias tmux='env TERM=screen-256color tmux'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like

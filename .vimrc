@@ -20,6 +20,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'blueyed/vim-diminactive'
 Plugin 'zeis/vim-kolor'
+Plugin 'dracula/vim', { 'name': 'dracula' }
 
 call vundle#end()
 filetype plugin indent on
@@ -29,9 +30,10 @@ set autoindent
 set nu "rnu
 
 "colorscheme jellybeans
-colorscheme kolor
+"colorscheme kolor
+colorscheme dracula
 
-"set bg=dark
+set bg=dark
 
 set backspace=indent,eol,start
 set t_Co=256
@@ -39,6 +41,8 @@ set clipboard=unnamedplus
 set mouse=a
 set cursorline
 
+let &t_ZH="\e[3m"
+let &t_ZR="\e[23m"
 " for taglist
 nmap <F8> :Tagbar<CR>
 
