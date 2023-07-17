@@ -14,6 +14,8 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'airblade/vim-gitgutter' 
 Plugin 'blueyed/vim-diminactive'
 Plugin 'dracula/vim', { 'name': 'dracula' }
+Plugin 'fatih/vim-go'
+Plugin 'ycm-core/YouCompleteMe'
 
 call vundle#end()
 filetype plugin indent on
@@ -37,10 +39,12 @@ set cursorline
 
 let &t_ZH="\e[3m"
 let &t_ZR="\e[23m"
-" for taglist
-nmap <F9> :Tagbar<CR>
 " for NERDTree
 nmap <F8> :NERDTreeToggle<CR>
+" for taglist
+nmap <F9> :Tagbar<CR>
+" for GoDef
+nmap <F10> :GoDef<CR>
 
 set sts=4 ts=4 sw=4
 
