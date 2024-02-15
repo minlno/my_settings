@@ -15,7 +15,6 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'blueyed/vim-diminactive'
 Plugin 'dracula/vim', { 'name': 'dracula' }
 Plugin 'fatih/vim-go'
-Plugin 'ycm-core/YouCompleteMe'
 Plugin 'rust-lang/rust.vim'
 
 call vundle#end()

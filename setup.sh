@@ -12,7 +12,3 @@ vim +PluginInstall +qall
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 source ~/.bashrc
-
-cd ~/.vim/bundle/YouCompleteMe
-git submodule update --init --recursive
-./install.py --all --force-sudo
