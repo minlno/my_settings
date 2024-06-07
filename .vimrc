@@ -46,8 +46,6 @@ nmap <F9> :Tagbar<CR>
 " for GoDef
 nmap <F10> :GoDef<CR>
 
-set sts=4 ts=4 sw=4
-
 " for vim-airline
 "let g:airline#extensions#tabline#enabled = 1 " turn on buffer list
 let g:airline_theme='dracula'
